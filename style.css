@@ -1,0 +1,106 @@
+.imageBtn {
+    width: 400px;
+    height: 80vh;
+    margin-top: 4px;
+}
+
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Helvetica;
+}
+
+.container {
+    margin-top: 50px;
+    width: 150vh;
+    height: 80vh;
+    border: 1px solid;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(72, 66, 66);
+}
+
+.header {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.nameInput, .emailAddress, .passwordInput{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.passwordInput {
+    margin-bottom: 10px;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+}
+
+#checkbox {
+    height: 10px;
+    width: 10px;
+}
+
+.checkbox {
+    align-items: center;
+    display: flex;
+}
+
+.createBtn {
+    margin-right: 100px;
+}
+
+.fname, .email, .password {
+    margin-right: 50px;
+}
+
+label {
+    font-size: 8px;
+    letter-spacing: 2px;
+}
+
+span {
+    color: orange;
+}
+
+.signIn {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.createAccount {
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.checkboxTitle {
+    margin: 0;
+}
+
+.createAccountBtn {
+    margin-top: 20px;
+}
+
+button {
+    height: 30px;
+    width: 170px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}

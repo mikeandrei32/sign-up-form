@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.right-section {
+    background-color: rgb(241, 241, 241);
+}
+
+.description {
+    margin-top: 100px;
+    padding-left: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image {
+    position: relative;
+}
+
+.picture {
+    height: 100vh;
+    width: 650px;
+}
+
+.logos {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 650px;
+    height: 150px;
+    font-size: 100px;
+    font-family: 'Rye', serif;
+}
+
+.logo {
+    width: 140px;
+    height: 140px;
+}
+
+.info-section {
+    display: flex;
+    gap: 100px;
+}
+
+.info {
+    background-color: white;
+    width: 697px;
+    height: 200px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.do-this {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+input {
+    width: 230px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.create-account {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.account-btn {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsla(120, 100%, 13%, 0.699);
+    color: white;
+}
